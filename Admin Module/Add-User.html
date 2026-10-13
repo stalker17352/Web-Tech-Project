@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ADD USERS</title>
+</head>
+
+<body>
+
+<h1>ADD USERS</h1>
+
+<a href="Admin-Dashboard.html">ADMIN DASHBOARD</a> ***
+<a href="Manage-User.html">MANAGE USERS</a> ***
+<a href="Add-User.html">ADD USERS</a>***
+
+<hr>
+
+<h2>USER INFORMATION:</h2>
+
+<fieldset>
+    <legend>User Details</legend>
+
+    <form action="#" method="post">
+
+        <table>
+
+            <tr>
+                <td><label for="userid">User ID:</label></td>
+                <td><input type="text" id="userid" name="userid"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fullname">Full Name:</label></td>
+                <td><input type="text" id="fullname" name="fullname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="usertype">User Type:</label></td>
+                <td>
+                    <select id="usertype" name="usertype">
+                        <option value="">Select User Type</option>
+                        <option value="CUSTOMER">CUSTOMER</option>
+                        <option value="SELLER">SELLER</option>
+                        <option value="MANAGER">MANAGER</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td>
+                    <textarea id="address" name="address"
+                        rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Add User">
+                    <input type="reset" value="Clear Form">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</fieldset>
+
+<hr>
+
+<a href="Manage-User.html">BACK TO MANAGE USERS</a>
+
+</body>
+
+</html>
